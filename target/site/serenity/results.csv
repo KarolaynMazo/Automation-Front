@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"I as an automation analyst","the customer wants to enter the form data","SUCCESS","2021-11-12T13:53:45.075199-05:00[America/Bogota]","0.0","21.47"
+"I as an automation analyst","Customer wants to list the arguments of the request","SUCCESS","2021-11-08T13:59:12.6480183-05:00[America/Bogota]","0.0","7.42"
+"I as an automation analyst","Customer wants create the new arguments","SUCCESS","2021-11-08T13:59:20.0755742-05:00[America/Bogota]","0.0","12.28"
+"Yo como analista de automatizacion","Cliente desea ir a la categoria de laptos","SUCCESS","2021-10-25T08:46:38.8130687-05:00[America/Bogota]","0.0","15.97"
+"Yo como analista de automatizacion","Cliente desea ir a a la categoria y seleccionar un producto","SUCCESS","2021-10-25T08:46:56.1954524-05:00[America/Bogota]","0.0","21.15"
