@@ -1,6 +1,6 @@
 package co.com.test2.questions;
 
-import co.com.test2.userinterface.FormPage;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -24,7 +24,7 @@ public class ValidationMessage implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
         WaitUntil.the(MESSAGE_CONFIRMATION, isVisible()).forNoMoreThan(FIFTEEN_NUM).seconds();
-        return (Text.of(target.of(message)).asString().toString());
+        return (Text.of(target.of(message)).answeredBy(actor).toString());
     }
 
     public static ValidationMessage with(Target target,String message){

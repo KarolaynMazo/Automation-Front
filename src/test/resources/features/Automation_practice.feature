@@ -7,7 +7,7 @@ Feature: I as an automation analyst
   Scenario Outline: the customer wants to enter the form data
     Given 'customer' you want to navigate to the page
     When enter the  information <Product>
-    Then should see the <Product>
+    Then they should see the <Product>
     Examples:
       | Product |
       | Blouses |

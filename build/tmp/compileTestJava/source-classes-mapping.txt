@@ -1,8 +1,0 @@
-co/com/test2/runners/Test2.java
- co.com.test2.runners.Test2
-co/com/test2/runners/AutomationPractice.java
- co.com.test2.runners.AutomationPractice
-co/com/test2/stepdefinitions/AutomationPracticeStepDefinitions.java
- co.com.test2.stepdefinitions.AutomationPracticeStepDefinitions
-co/com/test2/stepdefinitions/Test2StepDefinitions.java
- co.com.test2.stepdefinitions.Test2StepDefinitions

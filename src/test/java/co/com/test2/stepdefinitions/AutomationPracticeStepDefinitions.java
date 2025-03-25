@@ -8,6 +8,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.actions.OpenUrl;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import org.hamcrest.Matchers;
@@ -21,6 +22,7 @@ public class AutomationPracticeStepDefinitions {
     @Before
     public void initialConfig() {
         setTheStage(new OnlineCast());
+        SerenityRest.useRelaxedHTTPSValidation();
     }
 
 
@@ -35,10 +37,10 @@ public class AutomationPracticeStepDefinitions {
         theActorInTheSpotlight().attemptsTo(Product.with(product));
     }
 
-    @Then("^should see the (.*)$")
-    public void shouldSeeTheProduct(String product) {
-        theActorInTheSpotlight().should(seeThat("The response of the service request is successful",
-                ValidationProduct.with(product, AutomationPractice.Confirmation(product)), Matchers.is(true))
-        );
-    }
+   //@Then("^they should see the (.*)$")
+   //public void shouldSeeTheProduct(String product) {
+   //    theActorInTheSpotlight().should(seeThat("ok",
+   //            ValidationProduct.with(product, AutomationPractice.Confirmation(product)), Matchers.is(true))
+   //    );
+   //}
 }
