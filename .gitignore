@@ -18,3 +18,13 @@
 *.zip
 *.tar.gz
 *.rar
+
+#Serenity BDD
+target/
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+.gradle/5*
+.gradle/build*
+.gradle/vcs*
