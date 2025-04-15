@@ -1,23 +1,25 @@
 
-# 💡 Nombre del Proyecto 💡
+# 💡 Projects Name 💡
 
-__Ejemplo: Automatización Web 
+_Example_: Web Automation
+
+URL: https://demoqa.com/automation-practice-form
 
 
-# 👓 Informacion del Autor 👓
-|Autor|
-|--|
-| Karolayn Mazo |
+# 👓 Author Information👓
+|Author|Email|
+|--|--|
+| Karolayn Mazo |Karolaynmazo@gmail.com|
 
-# 📋 Pre-requisitos 📋
+# 📋 Pre-requirements 📋
 
 - Java 17
 - Lombok
 - VisualStudio Code
-- Gradle, versiones 8
-- Navegadores, edge, chrome
+- Gradle 8
+- browsers, Edge, Chrome
 - Serenity BDD, Screenplay
 
-# 🎨Descripcion de la automatización
+# 🎨Automation Description
 
-_Proyecto de automatizacion web de paginas publicas, con buenas prácticas de mapeo de objetos y uso de lombok. 
+Web automation project, which is designed to fill out a form by loading an image in jpg format, is built to interact with different types of HTML objects.
