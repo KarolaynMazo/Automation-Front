@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = "co.com.test2.stepdefinitions",
-        features = "src/test/resources/features/Automation_practice.feature",
+        features = "src/test/resources/features/Demo_qa.feature",
         snippets = SnippetType.CAMELCASE
 )
 
-public class AutomationPractice {
+public class DemoQA {
 
 }

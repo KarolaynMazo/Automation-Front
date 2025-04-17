@@ -1,6 +1,6 @@
 package co.com.test2.stepdefinitions;
 
-import co.com.test2.enums.Mensaje;
+import co.com.test2.enums.Message;
 import co.com.test2.exceptions.Exceptions;
 import co.com.test2.questions.ValidationMessage;
 import co.com.test2.task.EnterData;
@@ -20,7 +20,7 @@ import static co.com.test2.utils.ConstantString.URL;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 
-public class Test2StepDefinitions {
+public class DemoQAStepDefinitions {
 
     @Before
     public void initialConfig() {
@@ -41,7 +41,7 @@ public class Test2StepDefinitions {
     public void shouldSeeTheMessage(String message) {
         theActorInTheSpotlight().should(seeThat("The response of the service request is successful",
                 ValidationMessage.with(FormPage.Message(message),message), Matchers.is(message))
-                .orComplainWith(Exceptions.class, Mensaje.MSG_ERR.getMensaje()));
+                .orComplainWith(Exceptions.class, Message.MSG_ERR.getmessage()));
 
     }
 

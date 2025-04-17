@@ -1,8 +1,7 @@
-#Author:
+#Author:Karolaynmazo@gmail.com
 
 Feature: I as an automation analyst
-  I need to consume the services of https://demoqa.com/automation-practice-form and
-  http://automationpractice.com/index.php
+  I need to consume the services of https://demoqa.com/automation-practice-form 
 
 
   Scenario Outline: the customer wants to enter the form data

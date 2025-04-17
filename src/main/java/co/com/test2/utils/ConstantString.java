@@ -3,10 +3,7 @@ package co.com.test2.utils;
 public class ConstantString {
 
     public static final String URL = "https://demoqa.com/automation-practice-form";
-    public static final String URL_AP = "http://automationpractice.com/index.php";
-    public static final String GET = "/get";
-    public static final String POST = "/post";
-    public static final Integer STATUS_CODE = 200;
+   
 
     public static final String _NAME = "Name";
     public static final String _LAST_NAME = "LastName";
